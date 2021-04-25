@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
+	double area;
 	double radius;
 	cout << "Enter radius\n";
 	cin>> radius;
