@@ -6,13 +6,17 @@ using namespace std;
 
 int main()
 {
-	double area;
+	
 	double radius;
 	cout << "Enter radius\n";
 	cin>> radius;
 	cout << "The area of a circle with radius \n";
-	area=3.14*radius*radius;
+	double area=3.14*radius*radius;
 	cout << area;
+	
+	cout << "The circumference is: \n";
+	double circumference= 2*radius*3.14;
+	cout << circumference<< endl;
 	
 	return 0;
 }
