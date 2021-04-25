@@ -8,8 +8,10 @@ int main()
 {
 	double radius;
 	cout << "Enter radius\n";
-	//Add code to read user input and store in variable radius
+	cin>> radius;
 	cout << "The area of a circle with radius \n";
-	//Calculate the area of the circle
+	area=3.14*radius*radius;
+	cout << area;
+	
 	return 0;
 }
